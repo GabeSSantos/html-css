@@ -1,0 +1,59 @@
+/* 
+height = altura
+width = largura
+padding = preenchimento
+border = borda
+outline = contorno
+margin = margem
+box-level = ele pula para proxima linha e cria um box que ocupa a largura inteira(<div>)
+inline-level = não quebra a linha(<span>)
+box-level = h1 , p , main , nav , header ...
+inline-level = span , a , code ,input , button
+display: block = box-level
+
+
+solid = solid
+dashed = pontilhado
+groove = borda 3D
+
+
+
+
+*/
+
+*{
+    margin: 0;
+}
+h1{
+    background-color: azure;
+    padding: 10px;  /* (só o padding vira um shorthands )ou
+    padding-top
+    padding-right
+    padding-botton
+    padding-left
+    NESSE SENTIDO
+    ;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    */
+    margin: auto;
+    margin-top: 10px;
+    
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+}
+a {
+    border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet;
+}
